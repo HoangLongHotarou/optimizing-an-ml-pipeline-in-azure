@@ -42,7 +42,7 @@ Overral, the best performing model was a Azure AutoML model using VotingEnsemble
 
 The first, we retrieve the data using the TabularDataFactory and return the tabular format.
 
-We use the `clean_data` method to clean data for data preprocessing. Then, we split data to 70% for training and 30% for processing.
+We use the `clean_data` method to clean data for data preprocessing. Then, we split data to 70% for training and 30% for testing.
 
 In the Scikit-lean pipeline we use the LogisticRegression algorithms to define the model.
 
