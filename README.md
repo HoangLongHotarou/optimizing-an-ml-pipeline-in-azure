@@ -119,6 +119,7 @@ If we alredy know the algorithm that is suitable for the dataset, **The HyperDri
 
 ## Future work
 ![alt text](img/image-7.png)
+
 The dataset is imbalance, this is huge problem in classification because it impact the model accuracy negatively. So we will collect more yes sample to make the dataset is balance.
 
 I'll try other parameter samplers to compare the  Bayesian sampling, such as Grid Sampling, Random Sampling and others.
